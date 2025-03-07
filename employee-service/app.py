@@ -2,7 +2,7 @@ from flask import Flask
 from flask_pymongo import PyMongo
 import os
 from dotenv import load_dotenv
-from model import create_employee, get_all_employees, get_employee  # Import functions
+from controller import create_employee, get_all_employees, get_employee  # Import functions
 
 load_dotenv()  # Load environment variables from .env file
 
